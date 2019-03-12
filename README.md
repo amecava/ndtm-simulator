@@ -1,6 +1,6 @@
 # Non-deterministic Turing machine simulator
 
-Implementation in standard C (libc) of a non-deterministic Turing machine, in the single tape variant, that accepts or rejects strings based on a given set of transitions.
+Implementation in C, using only the standard library (libc) and the base runtime, of a non-deterministic Turing machine, in the single tape variant, that accepts or rejects strings based on a given set of transitions.
 
 ## Usage
 
