@@ -11,13 +11,10 @@ Build:
 $ ./build.sh
 ```
 
-Run single test (and check result):
+Different run methods:
 ```sh
+$ ./build/src/project
 $ ./build/src/project < test/cases/file.input
-```
-
-Run and check results:
-```sh
 $ ./build/src/project < test/cases/file.input | diff test/cases/file.output -
 ```
 
