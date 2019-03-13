@@ -1,0 +1,9 @@
+os: linux
+language: c
+compiler: gcc
+install: false
+script:
+  - mkdir build && cd build
+  - cmake ..
+  - make all
+  - ../test/test_cases.sh
