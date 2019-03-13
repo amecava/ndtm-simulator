@@ -5,10 +5,14 @@ Implementation in C, using only the standard library (libc) and the base runtime
 ## Usage
 
 Run:
-./a.out < input_output/test_1/input.test
+```sh
+$ ./a.out < input_output/test_1/input.test
+```
 
 Run and check results:
-./a.out < input_output/test_1/input.test | diff input_output/test_1/output.test -
+```sh
+$ ./a.out < input_output/test_1/input.test | diff input_output/test_1/output.test -
+```
 
 ## Authors
 
