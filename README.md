@@ -6,14 +6,24 @@ Implementation in C, using only the standard library (libc) and the base runtime
 
 ## Usage
 
-Run:
+Build:
 ```sh
-$ ./a.out < input_output/test_1/input.test
+$ ./build.sh
+```
+
+Run single test (and check result):
+```sh
+$ ./build/src/project < test/cases/file.input
 ```
 
 Run and check results:
 ```sh
-$ ./a.out < input_output/test_1/input.test | diff input_output/test_1/output.test -
+$ ./build/src/project < test/cases/file.input | diff test/cases/file.output -
+```
+
+Run all test cases:
+```sh
+$ ./test/test_cases.sh
 ```
 
 ## Authors
