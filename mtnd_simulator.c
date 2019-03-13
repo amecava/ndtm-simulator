@@ -447,7 +447,8 @@ int j;
     return ;
 }
 
-void init_queue(queue_t * queue, queue_t * inactive, char * line) {
+void init_queue(queue_t * queue, queue_t * inactive, char * line) 
+{
 int i;
 
     if(inactive->head != NULL) {
