@@ -1,4 +1,4 @@
-# Non-deterministic Turing machine simulator
+# Non-Deterministic Turing Machine simulator
 
 [![Build Status](https://travis-ci.org/amecava/mtndsimulator.svg?branch=master)](https://travis-ci.org/amecava/mtndsimulator)
 
